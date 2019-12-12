@@ -23,7 +23,11 @@ class Game
       puts
       if @player.word.include?(letter)
         puts "Nice job!"
-        @player.guessed[@player.word.index(letter)] = letter
+        temp = "#{@player.word}"
+        while temp.include?(letter) do
+          @player.guessed[temp.index(letter)] = letter
+          temp[temp.index(letter)] = "-"
+        end
       else
         puts "Nice try!"
         @player.wrong += 1
