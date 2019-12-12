@@ -39,8 +39,10 @@ class Game
       save
     elsif @player.wrong == @player.tries || @player.guessed.include?("_")
       puts "Sorry you lost. Try again!"
+      puts "The word was #{@player.word}"
     else
       puts "You won! Congrats"
+      puts "The word was #{@player.word}"
     end
   end
 

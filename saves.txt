@@ -1,2 +1,1 @@
 PLAYER; WORD; GUESSED; GUESSEDLETTERS; AMOUTWRONG
-wasd; anatolia; a_a___ia; aei; 1
