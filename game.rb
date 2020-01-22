@@ -16,7 +16,7 @@ class Game
       if letter == "1"
         break
       end
-      while letter.length > 1 || !letter.is_a?(String) || letter == "" || @player.previous_guesses.include?(letter) do
+      while letter.length > 1 || !letter.is_a?(String) || letter == "" || @player.previous_guesses.include?(letter) || !letter.is_a?(Numeric)do
         puts "That's not a valid character or it is already used. Try again."
         letter = gets.chomp.downcase
       end
