@@ -1,2 +1,8 @@
 PLAYER; WORD; GUESSED; GUESSEDLETTERS; AMOUTWRONG
-
+a; bootless; ________; ; 0
+a; catercorner; ___________; s; 1
+a; advertiser; __________; 1; 0
+a; bedlinen; __d_____; d; 0
+a; caruncle; ________; 1; 0
+a; adjust; ______; ; 0
+a; adjust; ______; 1; 1
